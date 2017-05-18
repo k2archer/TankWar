@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="11" tilewidth="32" tileheight="32" backgroundcolor="#000000" nextobjectid="16">
+ <tileset firstgid="1" name="s" tilewidth="32" tileheight="32" tilecount="16" columns="4">
+  <image source="texture.png" width="128" height="128"/>
+  <tile id="0">
+   <properties>
+    <property name="Wall" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="heart" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="Iron" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="floor" width="20" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAt4MQixgbFlAJ8ZmCzFx1w4TGPE4sYqQCbXlLNY8PBJtc8QnqxxQ16OMHUcaHxsZnHiaaGUkBMvCIDbG6npvmkAgBS3wDF
+  </data>
+ </layer>
+ <layer name="barrier" width="20" height="11">
+  <data encoding="base64" compression="zlib">
+   eJytUcEKQDEI0lPv/7/4XTYI0bosiFbZsCwA9didMdRhZtjqdXJKr0ftp17np3wY3ikn/L7KT2ccplosg99s+nfjpzdy2GuTvtNc2mPTd9NY80lf5f0Zful+L/0HSVEB7A==
+  </data>
+ </layer>
+ <objectgroup name="hero">
+  <object id="1" name="player_1_point" x="304" y="304" width="1" height="1"/>
+  <object id="4" name="player_2_point" x="304" y="48" width="1" height="1"/>
+  <object id="6" x="48" y="48" width="1" height="1"/>
+  <object id="10" name="enemy_1" x="48" y="48" width="1" height="1"/>
+  <object id="12" name="enemy_2" x="48" y="176" width="1" height="1"/>
+  <object id="13" name="enemy_3" x="592" y="48" width="1" height="4"/>
+  <object id="15" name="enemy_4" x="592" y="176" width="1" height="1"/>
+ </objectgroup>
+ <layer name="top" width="20" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBjZgIVKasmVI8duFixmErKDGm4gxVxah8dQBQBV0AAx
+  </data>
+ </layer>
+</map>
